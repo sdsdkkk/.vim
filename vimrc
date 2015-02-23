@@ -14,4 +14,4 @@ set softtabstop=2
 " shortcuts
 map <S-Tab> :NERDTreeToggle<CR>
 map <S-W> :nohlsearch<CR>
-map <S-Z> :q<CR>
+map <C-Z> :q<CR>
