@@ -8,6 +8,7 @@ set hlsearch
 set ignorecase
 set cindent
 
-" toggler
+" shortcuts
 map <S-Tab> :NERDTreeToggle<CR>
 map <S-W> :nohlsearch<CR>
+map <S-Z> :q<CR>
