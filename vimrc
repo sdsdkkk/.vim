@@ -1,15 +1,23 @@
 " pathogen
 execute pathogen#infect()
 
-" some basic stuff
 set nu
 set incsearch
 set hlsearch
 set ignorecase
+
 set cindent
 set expandtab
 set shiftwidth=2
 set softtabstop=2
+set tabstop=2
+set cpoptions-=J
+
+set list
+set listchars=tab:▸\ ,eol:¬
+set backspace=indent,eol,start
+
+filetype plugin indent on
 
 " shortcuts
 map <S-Tab> :NERDTreeToggle<CR>
