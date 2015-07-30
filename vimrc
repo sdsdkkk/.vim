@@ -1,3 +1,4 @@
+set encoding=utf-8
 " pathogen
 execute pathogen#infect()
 
