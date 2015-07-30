@@ -18,7 +18,9 @@ set list
 set listchars=tab:▸\ ,eol:¬
 set backspace=indent,eol,start
 
+filetype plugin on
 filetype plugin indent on
+syntax on
 
 " shortcuts
 map <S-Tab> :NERDTreeToggle<CR>
